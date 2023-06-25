@@ -52,7 +52,7 @@ const App = () => (
         {quotes.map((res, index) => (
           <div key={index}>
             <i>"{res.quote}"</i>
-            <b>~{res.quote}</b>
+            <b>~{res.name}</b>
           </div>
         ))}
       </div>
